@@ -1,1 +1,1 @@
-export const PUBLIC_KEY = '<YOUR_PUBLIC_KEY>';
+export const PUBLIC_KEY = 'APP_USR-1d1ce135-5976-4838-938e-64d5ec7198d4';

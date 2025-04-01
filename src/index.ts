@@ -1,9 +1,10 @@
 import initMercadoPago from './mercadoPago/initMercadoPago';
 
-import CardPayment from './bricks/cardPayment';
-import Payment from './bricks/payment';
+import CardPayment, { useCardPaymentBrick } from './bricks/cardPayment';
+import Payment, { usePaymentBrick } from './bricks/payment';
 import StatusScreen from './bricks/statusScreen';
 import Wallet from './bricks/wallet';
+import Brand from './bricks/brand';
 
 import getIdentificationTypes from './coreMethods/getIdentificationTypes';
 import getPaymentMethods from './coreMethods/getPaymentMethods';
@@ -21,7 +22,10 @@ import ExpirationYear from './secureFields/expirationYear';
 export {
   initMercadoPago,
   CardPayment,
+  Brand,
+  useCardPaymentBrick,
   Payment,
+  usePaymentBrick,
   StatusScreen,
   Wallet,
   getIdentificationTypes,
