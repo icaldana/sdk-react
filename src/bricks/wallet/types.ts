@@ -80,7 +80,6 @@ interface IWalletBrickBaseCustomization {
   | 'security_details'
   | 'security_safety'
   | 'convenience_credits'
-  | 'smart_option'
   | 'payment_methods_logos'
   | 'free_shipping'
   | 'ml_shipping';
